@@ -14,9 +14,7 @@ $('#start1').click(function(e) {
                     sound.stop();
                   });
     });
-  });
 
-  $(document).ready(function() {
     SC.stream('/tracks/18626108',function(sound){
 $('#start2').click(function(e) {
            e.preventDefault();
@@ -136,14 +134,14 @@ $('#start12').click(function(e) {
                     e.preventDefault();
                     sound.stop();
                   });
-  //  });
+
 });
 
 // <!--hip hop -->
 
 
 
-$(document).ready(function() {
+
     SC.stream('/tracks/339013625',function(sound){
 $('#start13').click(function(e) {
            e.preventDefault();
@@ -154,9 +152,8 @@ $('#start13').click(function(e) {
                     sound.stop();
                   });
     });
-  });
 
-  $(document).ready(function() {
+
     SC.stream('/tracks/327110126',function(sound){
 $('#start14').click(function(e) {
            e.preventDefault();
@@ -276,5 +273,5 @@ $('#start24').click(function(e) {
                     e.preventDefault();
                     sound.stop();
                   });
-  //  });
+   });
 });
